@@ -1,0 +1,53 @@
+textarea {
+    min-height: 400px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row-reverse;
+    font-style: italic;
+}
+
+.none {
+    display: none;
+}
+
+.archive-unarchive {
+    display: none;
+}
+
+.list-items {
+    font-weight: bold;
+}
+
+.list-details {
+    font-weight: normal;
+}
+
+body {
+    background-color: #fdfcfc;
+}
+
+.images {
+    width: 60px;
+    height: 60px;
+}
+
+.buttons {
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 576px) {
+    #user_id {
+      margin-bottom: 5px;
+    }
+    .content-body {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    #user_id {
+      margin-bottom: -5px;
+    }
+}
